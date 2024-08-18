@@ -25,4 +25,5 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    # install_requirs=["pymongo", "pymomgo[srv]","dnspython","pandas","numpy","ensure"]  #---- Need to add all the libraries if deploying the project as package in pypi
     )

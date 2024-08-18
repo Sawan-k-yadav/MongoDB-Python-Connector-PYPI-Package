@@ -1,3 +1,16 @@
+## After Package deplyed on pypi
+1. You can install with (pip install databaseautomation=0.0.2) whatever the latest version  
+2. Need to use database_automation folder to import mongo_crud.py file
+3. Now before creating client for which this package is made for, you need to define 
+necessary variables like mongodb atlas uri, database name, collection name
+4. For running the data creation pipeline of database automation, you need to pass list or dictionary
+data with mongo_crud.py file.
+```
+Ex - mongo_crud.mongo_operation(data, colletion_name)
+```
+
+## read, delete, update with same package in progress.....
+
 # requirements_dev.txt we use for the testing
 It makes it easier to install and manage dependencies for development and testing, separate from the dependencies required for production.
 
